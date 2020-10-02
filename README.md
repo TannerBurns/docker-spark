@@ -41,5 +41,9 @@
 ```python
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName("pyspark-notebook").master("spark://spark-master:7077").config("spark.executor.memory", "512m").getOrCreate()
+spark = SparkSession.\
+        builder.\
+        appName("pyspark-notebook").\
+        master("spark://spark-master:7077").\
+        config("spark.executor.memory", "512m").getOrCreate()
 ```
