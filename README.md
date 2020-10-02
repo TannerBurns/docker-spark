@@ -27,6 +27,15 @@
     Run ```docker-compose up```
 
 
+# Environment
+
+| App            | URL                                       | Info                                         |
+| ------------   | ----------------------------------------- | -------------------------------------------- |
+| JupyterLab     | [localhost:8888] (http://localhost:8888/) | Interface with cluster via jupyter notebooks |
+| Spark Master   | [localhost:8080] (http://localhost:8080/) | Spark master node                            |
+| Spark Worker 1 | [localhost:8081] (http://localhost:8081/) | Spark worker node. 1 core and 512m of memory |
+| Spark Worker 2 | [localhost:8082] (http://localhost:8082/) | Spark worker node. 1 core and 512m of memory |
+
 # Example
 
 ```python
