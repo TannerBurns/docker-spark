@@ -137,5 +137,8 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+#ds store
+*.DS_Store
+
 # local
 local_test.py
