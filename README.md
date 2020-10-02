@@ -4,7 +4,7 @@
 
 # Setup
 
-1. Create directory name "workspace" in the docker-spark directory
+1. Create directory named "workspace" in the docker-spark directory
 
         ./workspace - directory is needed for jupyterlab working dir
 
